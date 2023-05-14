@@ -2,8 +2,8 @@ from django.db import models
 
 class Season(models.Model):
     name = models.CharField(max_length=60)
-    image = models.URLField(null=True, black=True)
-    link = models.URLField(null=True, black=True)
+    image = models.URLField(null=True, blank=True)
+    link = models.URLField(null=True, blank=True)
     is_dubbed = models.BooleanField(default=False)
 
     watch = models.ForeignKey(

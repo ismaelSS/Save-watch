@@ -38,8 +38,6 @@ SIMPLE_JWT = {
 
 THIRD_PARTY_APPS = [
     "rest_framework",
-    "apscheduler",
-    "drf_spectacular",
 ]
 MY_APPS = [
     "users",
