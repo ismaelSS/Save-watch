@@ -1,6 +1,6 @@
 from django.db import models
 
-class watch(models.Model):
+class Watch(models.Model):
     name = models.CharField(max_length=128)
-    link = models.URLField()
-    imagem = models.URLField()
+    link = models.URLField(null=True, black=True)
+    imagem = models.URLField(null=True, black=True)
